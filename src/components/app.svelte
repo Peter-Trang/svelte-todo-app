@@ -43,11 +43,11 @@
         <h1 class="uppercase text-2xl font-bold">svelte todo app</h1>
         <p class="mb-0">current todos:</p>
     </div>
-    <div class="border p-4 m-4 min-w-[18rem] min-h-[22rem] flex flex-col justify-between rounded-md">
+    <div class="border border-orange-200 p-4 m-4 min-w-[18rem] min-h-[22rem] flex flex-col justify-between rounded-md">
         <ul>
             {#if todos.length === 0}
                 <li
-                    class="border p-4 my-2 rounded-md flex justify-between items-center"
+                    class="border border-gray-100 p-4 my-2 rounded-md flex justify-between items-center text-gray-400"
                 >
                     No todos yet!
                 </li>

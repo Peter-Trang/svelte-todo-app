@@ -11,13 +11,13 @@
     }
 </script>
 
-<div class="border p-4 rounded-md min-w-[18rem] flex justify-between">
+<div class="border border-orange-200 p-4 rounded-md min-w-[18rem] flex justify-between">
     <input
         bind:this={inputField}
         type="text"
         bind:value={inputValue}
         placeholder="Add your todo..."
-        class="focus:!outline-none border p-2 rounded-md"
+        class="focus:!outline-none border border-orange-200 p-2 rounded-md text-orange-800 placeholder-orange-200"
         on:keydown={(e) => {
             if (e.key === "Enter") {
                 submit();
